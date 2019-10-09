@@ -1,0 +1,25 @@
+{
+  "proposalApp": {
+    "quotes": {
+      "home": {
+        "title": "Quotes",
+        "createLabel": "Pridať Quotes",
+        "createOrEditLabel": "Pridať alebo upraviť Quotes",
+        "search": "Vyhľadať Quotes",
+        "notFound": "No Quotes found"
+      },
+      "created": "Bol vytvorený potomok entity Quotes s identifikátorom {{ param }}",
+      "updated": "Potomok entity Quotes s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Quotes s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Quotes {{ id }}?"
+      },
+      "detail": {
+        "title": "Quotes"
+      },
+      "text": "Text",
+      "author": "Author",
+      "category": "Category"
+    }
+  }
+}

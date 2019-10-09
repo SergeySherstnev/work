@@ -1,0 +1,35 @@
+{
+  "proposalApp": {
+    "proposal": {
+      "home": {
+        "title": "Proposals",
+        "createLabel": "Pridať Proposal",
+        "createOrEditLabel": "Pridať alebo upraviť Proposal",
+        "search": "Vyhľadať Proposal",
+        "notFound": "No Proposal found"
+      },
+      "created": "Bol vytvorený potomok entity Proposal s identifikátorom {{ param }}",
+      "updated": "Potomok entity Proposal s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Proposal s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Proposal {{ id }}?"
+      },
+      "detail": {
+        "title": "Proposal"
+      },
+      "caption": "Caption",
+      "description": "Description",
+      "priority": "Priority",
+      "alikeSum": "Likes",
+      "commentSum": "Comment Sum",
+      "createdDate": "Created Date",
+      "updatedDate": "Updated Date",
+      "status": "Status",
+      "alike": "Like",
+      "history": "History",
+      "comment": "Comment",
+      "author": "Author",
+      "tag": "Tag"
+    }
+  }
+}

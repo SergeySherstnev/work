@@ -1,0 +1,28 @@
+{
+  "proposalApp": {
+    "history": {
+      "home": {
+        "title": "Histories",
+        "createLabel": "Egy új History létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Historyt",
+        "search": "History keresése",
+        "notFound": "No History found"
+      },
+      "created": "Egy új History lett létrehozva {{ param }} azonosítóval",
+      "updated": "A History módosítva lett {{ param }} azonosítóval",
+      "deleted": "A History törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Historyt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "History"
+      },
+      "createdDate": "Created Date",
+      "status": "Status",
+      "comment": "Comment",
+      "executive": "Executive",
+      "assignee": "Assignee",
+      "proposal": "Proposal"
+    }
+  }
+}

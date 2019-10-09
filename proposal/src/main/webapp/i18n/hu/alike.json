@@ -1,0 +1,26 @@
+{
+  "proposalApp": {
+    "alike": {
+      "home": {
+        "title": "Likes",
+        "createLabel": "Egy új like létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson liket",
+        "search": "like keresése",
+        "notFound": "No like found"
+      },
+      "created": "Egy új like lett létrehozva {{ param }} azonosítóval",
+      "updated": "A like módosítva lett {{ param }} azonosítóval",
+      "deleted": "A like törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az liket {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Like"
+      },
+      "text": "Text",
+      "createdDate": "Created Date",
+      "author": "Author",
+      "proposal": "Proposal"
+    }
+  }
+}

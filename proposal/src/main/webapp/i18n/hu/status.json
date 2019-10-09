@@ -1,0 +1,13 @@
+{
+  "proposalApp": {
+    "Status": {
+      "null": "",
+      "NEW": "NEW",
+      "ACCEPTED": "ACCEPTED",
+      "REJECTED": "REJECTED",
+      "POSTPONED": "POSTPONED",
+      "ASSIGNED": "ASSIGNED",
+      "RESOLVED": "RESOLVED"
+    }
+  }
+}

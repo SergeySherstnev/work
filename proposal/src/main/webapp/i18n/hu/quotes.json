@@ -1,0 +1,25 @@
+{
+  "proposalApp": {
+    "quotes": {
+      "home": {
+        "title": "Quotes",
+        "createLabel": "Egy új Quotes létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Quotest",
+        "search": "Quotes keresése",
+        "notFound": "No Quotes found"
+      },
+      "created": "Egy új Quotes lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Quotes módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Quotes törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Quotest {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Quotes"
+      },
+      "text": "Text",
+      "author": "Author",
+      "category": "Category"
+    }
+  }
+}

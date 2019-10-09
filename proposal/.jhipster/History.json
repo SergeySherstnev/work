@@ -1,0 +1,64 @@
+{
+    "name": "History",
+    "fields": [
+        {
+            "fieldName": "createdDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Status",
+            "fieldValues": "NEW,ACCEPTED,REJECTED,POSTPONED,ASSIGNED,RESOLVED",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "comment",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 10000
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "history",
+            "relationshipValidateRules": "required",
+            "relationshipName": "executive",
+            "otherEntityField": "login"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "history",
+            "relationshipName": "assignee",
+            "otherEntityField": "login"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "proposal",
+            "otherEntityRelationshipName": "history",
+            "relationshipValidateRules": "required",
+            "relationshipName": "proposal",
+            "otherEntityField": "caption"
+        }
+    ],
+    "changelogDate": "20190903145431",
+    "entityTableName": "history",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "prop"
+}

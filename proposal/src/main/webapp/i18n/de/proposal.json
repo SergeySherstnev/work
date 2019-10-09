@@ -1,0 +1,35 @@
+{
+  "proposalApp": {
+    "proposal": {
+      "home": {
+        "title": "Proposals",
+        "createLabel": "Proposal erstellen",
+        "createOrEditLabel": "Proposal erstellen oder bearbeiten",
+        "search": "Suche nach Proposal",
+        "notFound": "No Proposal found"
+      },
+      "created": "Proposal erstellt mit ID {{ param }}",
+      "updated": "Proposal aktualisiert mit ID {{ param }}",
+      "deleted": "Proposal gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Proposal {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Proposal"
+      },
+      "caption": "Caption",
+      "description": "Description",
+      "priority": "Priority",
+      "alikeSum": "Likes",
+      "commentSum": "Comment Sum",
+      "createdDate": "Created Date",
+      "updatedDate": "Updated Date",
+      "status": "Status",
+      "alike": "Like",
+      "history": "History",
+      "comment": "Comment",
+      "author": "Author",
+      "tag": "Tag"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proposalApp": {
+    "alike": {
+      "home": {
+        "title": "likes",
+        "createLabel": "Pridať like",
+        "createOrEditLabel": "Pridať alebo upraviť like",
+        "search": "Vyhľadať like",
+        "notFound": "No like found"
+      },
+      "created": "Bol vytvorený potomok entity like s identifikátorom {{ param }}",
+      "updated": "Potomok entity like s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity like s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať like {{ id }}?"
+      },
+      "detail": {
+        "title": "like"
+      },
+      "text": "Text",
+      "createdDate": "Created Date",
+      "author": "Author",
+      "proposal": "Proposal"
+    }
+  }
+}

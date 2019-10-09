@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Welcome to",
+    "subtitle": "TODO: Describe application purpose and way of using.",
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    },
+    "question": "If you have any question:",
+    "link": {
+      "homepage": "Homepage",
+      "stackoverflow": "JHipster on Stack Overflow",
+      "bugtracker": "Bug tracker",
+      "chat": "JHipster public chat room",
+      "follow": "follow @java_hipster on Twitter"
+    },
+    "like": "If you like JHipster, don't forget to give us a star on",
+    "github": "GitHub"
+  }
+}

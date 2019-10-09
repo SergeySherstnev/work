@@ -1,0 +1,48 @@
+{
+    "name": "Alike",
+    "fields": [
+        {
+            "fieldName": "text",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 10
+        },
+        {
+            "fieldName": "createdDate",
+            "fieldType": "Instant",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "alike",
+            "relationshipValidateRules": "required",
+            "relationshipName": "author",
+            "otherEntityField": "login"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "proposal",
+            "otherEntityRelationshipName": "alike",
+            "relationshipValidateRules": "required",
+            "relationshipName": "proposal",
+            "otherEntityField": "caption"
+        }
+    ],
+    "changelogDate": "20190903145434",
+    "entityTableName": "alike",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "prop"
+}

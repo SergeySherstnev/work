@@ -1,0 +1,36 @@
+{
+  "proposalApp": {
+    "proposal": {
+      "home": {
+        "title": "Proposals",
+        "createLabel": "Создать новый Proposal",
+        "createOrEditLabel": "Создать или отредактировать Proposal",
+        "search": "Найти Proposal",
+        "notFound": "No Proposal found"
+      },
+      "created": "Новый Proposal создан с идентификатором {{ param }}",
+      "updated": "Proposal обновлен с идентификатором {{ param }}",
+      "deleted": "Proposal с идентификатором {{ param }} удален ",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Proposal {{ id }}?"
+      },
+      "detail": {
+        "title": "Proposal"
+      },
+      "error": "Неудача",
+      "caption": "Caption",
+      "description": "Description",
+      "priority": "Priority",
+      "alikeSum": "Likes",
+      "commentSum": "Comment Sum",
+      "createdDate": "Created Date",
+      "updatedDate": "Updated Date",
+      "status": "Status",
+      "alike": "Like",
+      "history": "History",
+      "comment": "Comment",
+      "author": "Author",
+      "tag": "Tag"
+    }
+  }
+}

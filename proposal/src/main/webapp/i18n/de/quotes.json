@@ -1,0 +1,25 @@
+{
+  "proposalApp": {
+    "quotes": {
+      "home": {
+        "title": "Quotes",
+        "createLabel": "Quotes erstellen",
+        "createOrEditLabel": "Quotes erstellen oder bearbeiten",
+        "search": "Suche nach Quotes",
+        "notFound": "No Quotes found"
+      },
+      "created": "Quotes erstellt mit ID {{ param }}",
+      "updated": "Quotes aktualisiert mit ID {{ param }}",
+      "deleted": "Quotes gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Quotes {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Quotes"
+      },
+      "text": "Text",
+      "author": "Author",
+      "category": "Category"
+    }
+  }
+}

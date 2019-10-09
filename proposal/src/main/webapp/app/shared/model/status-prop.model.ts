@@ -1,0 +1,8 @@
+export const enum Status {
+  NEW = 'NEW',
+  ACCEPTED = 'ACCEPTED',
+  REJECTED = 'REJECTED',
+  POSTPONED = 'POSTPONED',
+  ASSIGNED = 'ASSIGNED',
+  RESOLVED = 'RESOLVED'
+}

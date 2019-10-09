@@ -1,0 +1,26 @@
+{
+  "proposalApp": {
+    "alike": {
+      "home": {
+        "title": "Likes",
+        "createLabel": "like erstellen",
+        "createOrEditLabel": "like erstellen oder bearbeiten",
+        "search": "Suche nach like",
+        "notFound": "No like found"
+      },
+      "created": "like erstellt mit ID {{ param }}",
+      "updated": "like aktualisiert mit ID {{ param }}",
+      "deleted": "like gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll like {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "like"
+      },
+      "text": "Text",
+      "createdDate": "Created Date",
+      "author": "Author",
+      "proposal": "Proposal"
+    }
+  }
+}

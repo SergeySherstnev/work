@@ -1,0 +1,11 @@
+version: '2'
+services:
+  proposal-postgresql:
+    image: postgres:11.3
+    volumes:
+      - ~/volumes/jhipster/proposal/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=proposal
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

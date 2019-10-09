@@ -1,0 +1,26 @@
+{
+  "proposalApp": {
+    "alike": {
+      "home": {
+        "title": "likes",
+        "createLabel": "Создать новый like",
+        "createOrEditLabel": "Создать или отредактировать like",
+        "search": "Найти like",
+        "notFound": "No like found"
+      },
+      "created": "Новый like создан с идентификатором {{ param }}",
+      "updated": "like обновлен с идентификатором {{ param }}",
+      "deleted": "like удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить like {{ id }}?"
+      },
+      "detail": {
+        "title": "like"
+      },
+      "text": "Text",
+      "createdDate": "Created Date",
+      "author": "Author",
+      "proposal": "Proposal"
+    }
+  }
+}

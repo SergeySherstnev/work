@@ -1,0 +1,28 @@
+{
+  "proposalApp": {
+    "history": {
+      "home": {
+        "title": "Histories",
+        "createLabel": "History erstellen",
+        "createOrEditLabel": "History erstellen oder bearbeiten",
+        "search": "Suche nach History",
+        "notFound": "No History found"
+      },
+      "created": "History erstellt mit ID {{ param }}",
+      "updated": "History aktualisiert mit ID {{ param }}",
+      "deleted": "History gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll History {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "History"
+      },
+      "createdDate": "Created Date",
+      "status": "Status",
+      "comment": "Comment",
+      "executive": "Executive",
+      "assignee": "Assignee",
+      "proposal": "Proposal"
+    }
+  }
+}

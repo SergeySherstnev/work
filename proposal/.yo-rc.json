@@ -1,0 +1,69 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.tsystems.proposal",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "proposal",
+    "packageName": "com.tsystems.proposal",
+    "packageFolder": "com/tsystems/proposal",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDM4Yzg0ZWYzMzg3YTYyMWViZTVhNzU0MDU2NzI3ZTZlNjhjMzQwNjk1MzM3Y2RhMjhlN2U3ODFmMTM0ZGFmMGIyZDI2M2UxNjU3MmY4Nzk1ZTM2MWQ5NDVkNzgyYzJiMjdkMDNkYzI4YjA0OTNkOGM2MzBkZDA1Y2QyMWZhZGY=",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.1.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "de",
+      "hu",
+      "ru",
+      "sk"
+    ],
+    "blueprint": "generator-jhipster-vuejs",
+    "blueprintVersion": "1.1.0"
+  },
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "proposal",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "enableTranslation": true,
+    "languages": [
+      "en",
+      "de",
+      "hu",
+      "ru",
+      "sk"
+    ]
+  }
+}

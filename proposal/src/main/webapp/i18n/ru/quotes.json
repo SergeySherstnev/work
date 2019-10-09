@@ -1,0 +1,25 @@
+{
+  "proposalApp": {
+    "quotes": {
+      "home": {
+        "title": "Quotes",
+        "createLabel": "Создать новый Quotes",
+        "createOrEditLabel": "Создать или отредактировать Quotes",
+        "search": "Найти Quotes",
+        "notFound": "No Quotes found"
+      },
+      "created": "Новый Quotes создан с идентификатором {{ param }}",
+      "updated": "Quotes обновлен с идентификатором {{ param }}",
+      "deleted": "Quotes удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Quotes {{ id }}?"
+      },
+      "detail": {
+        "title": "Quotes"
+      },
+      "text": "Text",
+      "author": "Author",
+      "category": "Category"
+    }
+  }
+}

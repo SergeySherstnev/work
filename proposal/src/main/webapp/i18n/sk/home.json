@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Vitajte v",
+    "subtitle": "TODO: Describe application purpose and way of using.",
+    "logged": {
+      "message": "Ste prihlásený ako \"{{username}}\"."
+    },
+    "question": "Ak máte nejaké otázky:",
+    "link": {
+      "homepage": "Domovská stránka",
+      "stackoverflow": "JHipster v službe Stack Overflow",
+      "bugtracker": "Nahlasovanie chýb",
+      "chat": "Verejná chatovacia miestnosť JHipster",
+      "follow": "Sledovať @java_hipster v službe Twitter"
+    },
+    "like": "Ak sa vám JHipster páči, nezabudnite nám dať hviezdičku v službe",
+    "github": "GitHub"
+  }
+}

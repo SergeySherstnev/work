@@ -1,0 +1,35 @@
+{
+  "proposalApp": {
+    "proposal": {
+      "home": {
+        "title": "Proposals",
+        "createLabel": "Egy új Proposal létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Proposalt",
+        "search": "Proposal keresése",
+        "notFound": "No Proposal found"
+      },
+      "created": "Egy új Proposal lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Proposal módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Proposal törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Proposalt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Proposal"
+      },
+      "caption": "Caption",
+      "description": "Description",
+      "priority": "Priority",
+      "alikeSum": "Likes",
+      "commentSum": "Comment Sum",
+      "createdDate": "Created Date",
+      "updatedDate": "Updated Date",
+      "status": "Status",
+      "alike": "Like",
+      "history": "History",
+      "comment": "Comment",
+      "author": "Author",
+      "tag": "Tag"
+    }
+  }
+}

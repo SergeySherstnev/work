@@ -1,0 +1,19 @@
+{
+  "home": {
+    "title": "Willkommen zu",
+    "subtitle": "TODO: Describe application purpose and way of using.",
+    "logged": {
+      "message": "Sie sind als Benutzer \"{{username}}\" angemeldet."
+    },
+    "question": "Wenn Sie Fragen haben:",
+    "link": {
+      "homepage": "Hauptseite",
+      "stackoverflow": "JHipster auf Stack Overflow",
+      "bugtracker": "Fehlereinträge",
+      "chat": "JHipster Chat",
+      "follow": "kontaktieren Sie uns mit @java_hipster auf Twitter"
+    },
+    "like": "Wenn Sie JHipster mögen, vergessen Sie nicht uns einen Stern zu geben auf",
+    "github": "GitHub"
+  }
+}
